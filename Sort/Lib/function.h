@@ -38,5 +38,7 @@ void Create_New_Heap(float arr[], float key, int L, int R);
 void QuickSort(int arr[], int L, int R);
 void QuickSort(float arr[], int L, int R);
 
-
-
+void MergeSort(int arr[], int l, int r);
+void MergeSort(float arr[], int l, int r);
+void Merge(float arr[], int l, int m, int r);
+void Merge(float arr[], int l, int m, int r);
