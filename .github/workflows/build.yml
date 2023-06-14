@@ -12,7 +12,7 @@ jobs:
         with:
           vs-version: '16.0'
       - name: build with msbuild
+        working-directory: ./Sort
         run: |
-            working-directory: ./Sort
             msbuild /p:configuration=debug || exit 0
             .\x64\Debug\Sort.exe
